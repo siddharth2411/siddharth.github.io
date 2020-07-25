@@ -1,2 +1,0 @@
-# siddharth.github.io
-Portfolio
