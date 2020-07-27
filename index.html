@@ -15,25 +15,25 @@
 	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 		<div class="container-fluid">
 			<h3 class="navbar-clr">My Web Portfolio</h3>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse teal-clr" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#Home">Home</a>
+					<li class="nav-item active" data-toggle="collapse" data-target="#navbarResponsive">
+						<a class="nav-link" href="#Home" >HOME</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#About Me">About Me</a>
+					<li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+						<a class="nav-link" href="#About Me" >ABOUT</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Skills">Skills</a>
+					<li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+						<a class="nav-link" href="#Skills" >SKILLS</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Projects">Projects</a>
+					<li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+						<a class="nav-link" href="#Projects">PROJECTS</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Connect">Connect</a>
+					<li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+						<a class="nav-link" href="#Connect">CONNECT</a>
 					</li>
 				</ul>
 			</div>
@@ -44,19 +44,19 @@
 
 <!--- Home Section -->
 <a id="Home"></a>
-<div class="container-fluid home" >
-	<div class="row ">
+<div class="container-fluid home">
+	<div class="row">
 		<div class="col-lg-9 col-md-9 col-xs-12 col-sm-12 ">
-			<div class="padding-home">
-			<h3>Hello There!</h3>
+			<div class="padding-for-intro" >
+			<h2 class="display-4">Hello There!</h2>
 			<hr/>
 			<p class="lead">My name is <b>Siddharth Shah</b>.</p>
 			<p class="lead"> I am currently an undergraduate student at BITS Pilani, Goa campus pursuing a double major in <i>Computer Science</i> & <i>Biologocial Sciences</i>.</p>
 			<p class="lead">I love coding.</p>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 profile-photo">
-			<img class="img-fluid img-responsive img-thumbnail"  src="images/Profilephoto.jpg">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 profile-photo padding-for-intro">
+			<img class="img-fluid img-thumbnail"  src="images/Profilephoto.jpg">
 		</div>
 
 	</div>
@@ -66,21 +66,19 @@
 
 <!--- About me -->
 <a id="About Me"></a>
-<div class="container-fluid about-me" >
-	<!-- <div class="jumbotron"> -->
-		<h1 class="display-4 text-center">About Me</h1>
-		<hr>
-		<div class="row padding-about-me">
-			<div class="col-12 ">
-				<ul>
-				<li class="lead text-justify ">I am avid follower of upcoming technologies and how they revolutionize the tech industry. The concept of Entrepreneurship has fascinated me for quite some time and hence, I keenly follow some of the most successful entrepreneurs.</li>
-				<li class="lead text-justify">During my 2 year at BITS, I have been into coding. I am a seasoned <i>Competitive Coder</i> and have recently grown interest into <i>Development</i>. </li>
-				<li class="lead text-justify">Apart from this, I share a huge interest in <i>Photography</i>. I started it as a hobby but during my 2 years at college, I did some professional Photography as well.</li>
-				<li class="lead text-justify">In my free time, I like playing Table Tennis.</li>
-				</ul>
-			</div>
+<div class="container-fluid about-me padding-for-top">
+	<h1 class="display-4 text-center">ABOUT ME</h1>
+	<hr class="text-center">
+	<div class="row">
+		<div class="col-12 ">
+			<ul>
+			<li class="lead text-justify about-li ">I am avid follower of upcoming technologies and how they revolutionize the tech industry. The concept of Entrepreneurship has fascinated me for quite some time and hence, I keenly follow some of the most successful entrepreneurs.</li>
+			<li class="lead text-justify about-li">During my 2 year at BITS, I have been into coding. I am a seasoned <i>Competitive Coder</i> and have recently grown interest into <i>Development</i>. </li>
+			<li class="lead text-justify about-li">Apart from this, I share a huge interest in <i>Photography</i>. I started it as a hobby but during my 2 years at college, I did some professional Photography as well.</li>
+			<li class="lead text-justify about-li">In my free time, I like playing Table Tennis.</li>
+			</ul>
 		</div>
-	<!-- </div> -->
+	</div>
 </div>
 
 
@@ -94,9 +92,6 @@
 		</div>
 		<hr>
 	</div>
-
-
-
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<h3 class="teal-clr">Front-End</h3>
@@ -125,20 +120,16 @@
 <div class="container-fluid projects">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4">Projects</h1>
+			<h1 class="display-4">PROJECTS</h1>
 		</div>
 		<hr>
-
 	</div>
-</div>
+
 
 <!--- Cards -->
-<div class="container-fluid projects">
-	<div class="row padding">
-		
+	<div class="row">
 		<div class="col-md-4">
 			<div class="card">
-				<!-- <img class="card-img-top" src="img/team2.png"> -->
 				<div class="card-body text-center">
 					<h4 class="card-title text-center dark-clr">Miwok App</h4>
 					<hr class="project-hr">
@@ -150,7 +141,6 @@
 
 		<div class="col-md-4">
 			<div class="card">
-				<!-- <img class="card-img-top" src="img/team1.png"> -->
 				<div class="card-body text-center">
 					<h4 class="card-title text-center dark-clr">DigiLib</h4>
 					<hr class="project-hr">
@@ -162,7 +152,6 @@
 
 		<div class="col-md-4">
 			<div class="card">
-				<!-- <img class="card-img-top" src="img/team3.png"> -->
 				<div class="card-body text-center">
 					<h4 class="card-title dark-clr">Quake-Report</h4>
 					<hr class="project-hr">
